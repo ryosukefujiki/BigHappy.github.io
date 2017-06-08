@@ -74,9 +74,15 @@ body{
 
 .text a{
     color: #272727;
-    display: block;
 }
 
+.anchor_text{
+    display: inline;
+}
+
+.portfolio a{
+    margin-right: 10px;
+}
 /*footerにまつわるスタイル*/
 .footer{
     background: #f1f1f1;
