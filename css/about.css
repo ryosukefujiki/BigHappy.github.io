@@ -1,0 +1,87 @@
+body{
+    background: #ffffff;
+    font-size: 62.5%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.header{
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    display: block;
+    overflow: hidden;
+}
+.header img{
+    width: 300px;
+    float: left;
+}
+.header nav{
+    padding-top: 120px;
+    float: right;
+    display: block;
+    overflow: hidden;
+}
+.header nav ul li{
+    float: left;
+    font-size: 1.2rem;
+    margin-right: 50px;
+}
+
+.header nav ul li a{
+    text-decoration: none;
+    color: #272727;
+}
+
+.header nav ul li a:hover{
+    transition: 0.2s;
+    color: #d5d5d5;
+}
+
+
+.container{
+    padding-top: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 100px;
+}
+
+.container h1{
+    font-weight: normal;
+    font-size: 2rem;
+    margin: 0 auto 50px;
+    width: 500px;
+
+}
+.container img{
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+.container h2{
+    font-weight: normal;
+    font-size: 1.4rem;
+    margin: 40px auto 20px;
+    width: 500px;
+}
+
+
+.text{
+    font-size: 1.0rem;
+    margin: 20px auto 50px;
+    width: 500px;
+    line-height: 2.0rem;
+}
+
+.text a{
+    color: #272727;
+    display: block;
+}
+
+/*footerにまつわるスタイル*/
+.footer{
+    background: #f1f1f1;
+    color: #d5d5d5;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.8rem;
+}

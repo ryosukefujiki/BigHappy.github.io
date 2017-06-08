@@ -1,0 +1,108 @@
+body{
+    background: #ffffff;
+    font-size: 62.5%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.header{
+    margin-bottom: 350px;
+}
+.header__img{
+    display: block;
+    margin: 250px auto;
+}
+
+/*スクロールボタンにまつわるスタイル*/
+.scroll {
+    position: absolute;
+    top: 590px;
+    left: 48%;
+    z-index: 2;
+    display: inline-block;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    text-decoration: none;
+    color: #272727;
+    font-size: 1.6rem;
+}
+.scroll {
+    padding-top: 70px;
+}
+.scroll span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    margin-left: -12px;
+    border-left: 2px solid #272727;
+    border-bottom: 2px solid #272727;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-animation: sdb 1.5s infinite;
+    animation: sdb 1.5s infinite;
+    box-sizing: border-box;
+}
+@-webkit-keyframes sdb {
+    0% {
+        -webkit-transform: rotate(-45deg) translate(0, 0);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+        opacity: 0;
+    }
+}
+@keyframes sdb {
+    0% {
+        transform: rotate(-45deg) translate(0, 0);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: rotate(-45deg) translate(-20px, 20px);
+        opacity: 0;
+    }
+}
+
+
+/*コンテンツにまつわるスタイル*/
+.card{
+    padding: 28px;
+    border-radius: 10px;
+    width: 700px;
+    display: block;
+    margin: 100px auto 50px;
+    text-decoration: none;
+}
+.card img{
+    margin-bottom: 30px;
+    display: block;
+    width: 700px;
+}
+.card .title{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #272727;
+}
+
+.card:hover{
+    transition: 0.2s;
+    background: #f9f9f9;
+}
+
+
+
+/*footerにまつわるスタイル*/
+.footer{
+    background: #f1f1f1;
+    color: #d5d5d5;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.8rem;
+}
