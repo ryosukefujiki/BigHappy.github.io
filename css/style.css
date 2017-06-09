@@ -100,7 +100,7 @@ body{
 
 /*footerにまつわるスタイル*/
 .footer{
-    background: #f1f1f1;
+    background: #f9f9f9;
     color: #d5d5d5;
     text-align: center;
     padding: 20px;
@@ -132,10 +132,11 @@ body{
         margin-bottom: 250px;
     }
     .header__img{
+        width: 200px;
         margin: 180px auto;
     }
     .scroll {
-        top: 480px;
+        top: 380px;
         left: 41%;
     }
     .card{
