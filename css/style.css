@@ -113,12 +113,6 @@ body{
     body {
 /*        background-color:#2262D1;*/
     }
-    .header{
-        margin-bottom: 280px;
-    }
-    .header__img{
-        margin: 230px auto;
-    }
 }
 @media screen and (max-width: 768px) {
     /* 768pxまでの幅の場合に適応される */
@@ -135,7 +129,7 @@ body{
         background-color:#ffffff;
     }
     .header{
-        margin-bottom: 280px;
+        margin-bottom: 250px;
     }
     .header__img{
         margin: 230px auto;
