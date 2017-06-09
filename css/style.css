@@ -138,6 +138,7 @@ body{
     .scroll {
         top: 380px;
         left: 41%;
+        font-size: 1.2rem;
     }
     .card{
         padding: 28px;
