@@ -153,6 +153,11 @@ body{
         display: block;
         width: 300px;
     }
+    .card .title{
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: #272727;
+    }
 
 }
 @media screen and (max-width: 320px) {
@@ -164,11 +169,12 @@ body{
         margin-bottom: 250px;
     }
     .header__img{
-        width: 300px;
+        width: 200px;
         margin: 200px auto;
     }
     .scroll {
         left: 40%;
+        top: 400px;
     }
     .card{
         padding: 28px;
