@@ -174,11 +174,17 @@ hr {
         padding-top: 15px;
         padding-left: 35px;
         padding-right: 35px;
-        padding-bottom: 100px;
+        padding-bottom: 72px;
     }
 
     .container h1{
+        font-size: 1.4rem;
         width: 300px;
+        margin: 24px auto 24px;
+    }
+    .container h2{
+        font-size: 1.2rem;
+        margin: 24px auto 0px;
     }
     .container iframe{
         width: 300px;
@@ -190,9 +196,11 @@ hr {
         width: 300px;
     }
     .container h2{
+        font-size: 1.2rem;
         width: 300px;
     }
     .text{
+        font-size: 1.0rem;
         width: 300px;
     }
 
