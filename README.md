@@ -1,6 +1,4 @@
-Ryosuke Fujiki Portfolio
-
-Overview
+# Ryosuke Fujiki Portfolio
 
 ## Description
 This repository is portfolio site of ryosuke fujiki.
