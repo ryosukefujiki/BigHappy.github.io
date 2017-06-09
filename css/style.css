@@ -39,8 +39,8 @@ body{
     width: 24px;
     height: 24px;
     margin-left: -12px;
-    border-left: 2px solid #272727;
-    border-bottom: 2px solid #272727;
+    border-left: 3px solid #272727;
+    border-bottom: 3px solid #272727;
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     -webkit-animation: sdb 1.5s infinite;
