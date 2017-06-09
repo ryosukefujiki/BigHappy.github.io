@@ -1,3 +1,6 @@
+html{
+    line-height: 24px;
+}
 body{
     background: #ffffff;
     font-size: 62.5%;
@@ -45,18 +48,18 @@ hr {
 }
 
 .container{
-    padding-top: 100px;
+    padding-top: 48px;
     padding-left: 150px;
     padding-right: 150px;
-    padding-bottom: 100px;
+    padding-bottom: 48px;
 }
 
 .container h1{
+    line-height: 48px;
     font-weight: normal;
-    font-size: 2rem;
-    margin: 0 auto 50px;
+    font-size: 1.8rem;
+    margin: 0 auto 24px;
     width: 500px;
-
 }
 .container img{
     width: 500px;
@@ -64,18 +67,19 @@ hr {
     margin: 0 auto;
 }
 .container h2{
+    line-height: 48px;
     font-weight: normal;
     font-size: 1.4rem;
-    margin: 40px auto 20px;
+    margin: 48px auto 0px;
     width: 500px;
 }
 
 
 .text{
+    line-height: 48px;
     font-size: 1.0rem;
-    margin: 20px auto 50px;
+    margin: 0 auto;
     width: 500px;
-    line-height: 2.0rem;
 }
 
 .text a{
