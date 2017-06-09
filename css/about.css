@@ -37,6 +37,12 @@ body{
     color: #d5d5d5;
 }
 
+hr {
+    width: 900px;
+    height: 30px;
+    border: none;
+    border-bottom: 2px #e9e9e9 solid;
+}
 
 .container{
     padding-top: 100px;
@@ -90,4 +96,116 @@ body{
     text-align: center;
     padding: 20px;
     font-size: 0.8rem;
+}
+
+
+@media screen and (max-width: 1024px) {
+    /* 1024pxまでの幅の場合に適応される */
+    body {
+        background-color:#ffffff;
+    }
+    hr {
+        width: 500px;
+    }
+    .header nav ul li{
+        margin-right: 30px;
+    }
+}
+@media screen and (max-width: 768px) {
+    /* 768pxまでの幅の場合に適応される */
+    body {
+        background-color:#ffffff;
+    }
+    .header{
+        padding-top: 50px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .header img{
+        width: 250px;
+    }
+    .header nav{
+        padding-top: 100px;
+    }
+    .header nav ul li{
+        margin-right: 50px;
+    }
+
+    hr {
+        width: 600px;
+    }
+}
+@media screen and (max-width: 480px) {
+    /* 480pxまでの幅の場合に適応される */
+    body {
+        background-color:#ffffff;
+    }
+    .header{
+        padding-top: 50px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .header img{
+        width: 150px;
+    }
+    .header nav{
+        padding-top: 50px;
+    }
+    .header nav ul li{
+        margin-right: 25px;
+    }
+
+    hr {
+        width: 300px;
+    }
+    .container{
+        padding-top: 15px;
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-bottom: 100px;
+    }
+
+    .container h1{
+        width: 300px;
+    }
+    .container img{
+        width: 300px;
+    }
+    .container h2{
+        width: 300px;
+    }
+    .text{
+        width: 300px;
+    }
+
+}
+@media screen and (max-width: 320px) {
+    /* 320pxまでの幅の場合に適応される */
+    body {
+        background-color: #ffffff;
+    }
+    .header img{
+        width: 120px;
+    }
+    .header nav{
+        padding-top: 40px;
+    }
+    .header nav ul li{
+        margin-right: 10px;
+    }
+    hr {
+        width: 280px;
+    }
+    .container img{
+        width: 240px;
+    }
+    .container h1{
+        width: 240px;
+    }
+    .container h2{
+        width: 240px;
+    }
+    .text{
+        width: 240px;
+    }
 }

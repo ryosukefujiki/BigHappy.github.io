@@ -106,3 +106,85 @@ body{
     padding: 20px;
     font-size: 0.8rem;
 }
+
+
+@media screen and (max-width: 1024px) {
+    /* 1024pxまでの幅の場合に適応される */
+    body {
+/*        background-color:#2262D1;*/
+    }
+    .header{
+        margin-bottom: 280px;
+    }
+    .header__img{
+        margin: 230px auto;
+    }
+}
+@media screen and (max-width: 768px) {
+    /* 768pxまでの幅の場合に適応される */
+    body {
+/*        background-color:#f10010;*/
+    }
+    .scroll {
+        left: 44%;
+    }
+}
+@media screen and (max-width: 480px) {
+    /* 480pxまでの幅の場合に適応される */
+    body {
+        background-color:#ffffff;
+    }
+    .header{
+        margin-bottom: 280px;
+    }
+    .header__img{
+        margin: 230px auto;
+    }
+    .scroll {
+        top: 530px;
+        left: 41%;
+    }
+    .card{
+        padding: 28px;
+        border-radius: 10px;
+        width: 300px;
+        display: block;
+        margin: 40px auto 50px;
+        text-decoration: none;
+    }
+    .card img{
+        margin-bottom: 30px;
+        display: block;
+        width: 300px;
+    }
+
+}
+@media screen and (max-width: 320px) {
+    /* 320pxまでの幅の場合に適応される */
+    body {
+        background-color: #ffffff;
+    }
+    .header{
+        margin-bottom: 250px;
+    }
+    .header__img{
+        width: 300px;
+        margin: 200px auto;
+    }
+    .scroll {
+        left: 40%;
+    }
+    .card{
+        padding: 28px;
+        border-radius: 10px;
+        width: 260px;
+        display: block;
+        margin: 40px auto 50px;
+        text-decoration: none;
+    }
+    .card img{
+        margin-bottom: 30px;
+        display: block;
+        width: 260px;
+    }
+}
