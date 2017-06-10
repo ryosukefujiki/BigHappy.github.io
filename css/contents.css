@@ -5,6 +5,7 @@ body{
     background: #ffffff;
     font-size: 62.5%;
     font-family: 'Noto Sans', sans-serif;
+    color: #272727;
 }
 
 .header{
@@ -75,12 +76,40 @@ hr {
     display: block;
     margin: 0 auto;
 }
+
 .container h2{
     line-height: 48px;
     font-weight: normal;
     font-size: 1.4rem;
     margin: 48px auto 0px;
     width: 640px;
+}
+
+.sub{
+    display: block;
+    background: #f1f1f1;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    margin: 10px auto;
+    width: 640px;
+    height: 24px;
+    padding-top: 12px;
+    padding-left: 12px;
+    color: #272727;
+}
+
+.sub--inline{
+    display: inline-block;
+    background: #f1f1f1;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    margin: 10px auto;
+    width: 640px;
+    height: 24px;
+    padding-top: 12px;
+    padding-left: 12px;
+    color: #272727;
+    line-height: 12px;
 }
 .text{
     font-size: 1.0rem;
