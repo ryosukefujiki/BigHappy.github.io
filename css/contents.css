@@ -233,6 +233,14 @@ hr {
         width: 300px;
     }
 
+    .sub{
+        width: 300px;
+    }
+
+    .sub--inline{
+        width: 300px;
+    }
+
 }
 @media screen and (max-width: 320px) {
     /* 320pxまでの幅の場合に適応される */
@@ -267,6 +275,13 @@ hr {
         width: 240px;
     }
     .text{
+        width: 240px;
+    }
+    .sub{
+        width: 240px;
+    }
+
+    .sub--inline{
         width: 240px;
     }
 }
