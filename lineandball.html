@@ -1,92 +1,216 @@
 <!DOCTYPE html>
 <html lang="ja">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
-        <title>LINE and BALL | 藤木 良祐 Ryosuke Fujiki Portfolio</title>
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Nunito:400,700">
-        <link rel="stylesheet" href="css/contents.css">
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                                    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>RyosukeFujiki Portfolio | LINE and BALL</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/work_detail.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script type="text/javascript" src="js/header_menu.js">
+  </script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- BEM規則 block__element--modifier -->
 
-            ga('create', 'UA-100786231-1', 'auto');
-            ga('send', 'pageview');
+  <section class="header__bar">
+    <a href="index.html" class="header__title">
+      <img src="images/Header/HeaderTitleImg.png" alt="" class="header__title__img">
+    </a>
+    <div href="" class="header__button">
+      <img src="images/Header/HeaderTitleMenu.png" alt="" class="header__button__img">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
 
-        </script>
-        <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="img/favicons/favicon.ico">
-        <link rel="icon" type="image/vnd.microsoft.icon" href="img/favicons/favicon.ico">
-        <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192" href="img/favicons/android-chrome-192x192.png">
-        <link rel="icon" type="image/png" sizes="48x48" href="img/favicons/favicon-48x48.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="img/favicons/favicon-96x96.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="img/favicons/favicon-160x160.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="img/favicons/favicon-196x196.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
-        <link rel="manifest" href="img/favicons/manifest.json">
-        <meta name="msapplication-TileColor" content="#2d88ef">
-        <meta name="msapplication-TileImage" content="/mstile-144x144.png">
-
-    </head>
-    <body>
-        <header class="header">
-            <a href="index.html"><img src="img/title.png" alt="藤木 良祐 Ryosuke Fujiki" class="header__img"></a>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                </ul>
-            </nav>
-        </header>
-        <hr>
-
-        <div class="container">
-            <h1>LINE and BALL</h1>
-            <a href="https://prottapp.com/p/01524e#/s/59a2a0104942fb35fd1563bf" target="_blank"><img src="img/lineandball.png" alt=""></a>
-            <span class="sub">UIDA　UI発明賞</span>
-            <h2>【概要】</h2>
-            <p class="text">
-                アプリ名 : LINE and BALL<br>
-                Prottリンク : <a href="https://prottapp.com/p/01524e#/s/59a2a0104942fb35fd1563bf" target="_blank">Prott</a><br>
-                制作期間 : 5日間<br>
-                制作構成人数 : 個人制作<br>
-            </p>
-            <h2>【コンセプト】</h2>
-            <p class="text">
-                CyberAgent Internship 2017 UIDA にて5日間で「新しいパズルゲーム」を考えるというインターンシップで制作したものです。<br>
-                LINE and BALL は点と点を結ぶと線がひかれ、ボールを転がして、ゴール地点までつなげるパターンを考えるパズルゲームです。<br>
-                ターゲットは絞らず世界中の人に使ってもらえるようにしました。<br>
-                言語コミュニケーションは簡易な単語を使い少なくし、アイコンでわかるUI要素を追求しました。<br>
-                <img src="img/lineandball_example.png" alt="">
-                <span class="sub--inline"><a href="敬老の日に家族で制作する参加型の絵本プロダクトをつくりました。" target="_blank">Line and Ball Prottリンク</a></span>
-            </p>
-            <h2>【制作環境】</h2>
-            <p class="text">
-                『UIデザイン』　→　Adobe Illustrator/Photoshop,Sketch<br>
-                『プロトタイピング』　→　Prott/Adobe XD<br>
-            </p>
-            <h2>【成果】</h2>
-            <p class="text">
-                <strong><span class="underline">CyberAgent Internship 2017 UIDA　　UI発明賞受賞</span></strong><br>
-                <span class="sub--inline"><a href="https://www.cyberagent.co.jp/recruit/special/real/ui_academy/" target="_blank">CyberAgent Internship UIDA</a></span>
-            </p>
-        </div>
+  </section>
 
 
-        <footer class="footer">
-            © 2017 Ryosuke Fujiki
-        </footer>
-    </body>
+  <div class="overlay">
+    <nav class="overlay-menu">
+      <ul>
+        <li class="overlay__menu__list"><a href="index.html" class="overlay__home">
+          <span class="text--letterspace">Hom</span>e
+        </a></li>
+        <li class="overlay__menu__list"><a href="works.html" class="overlay__works">
+          <span class="text--letterspace">Work</span>s
+        </a></li>
+        <li class="overlay__menu__list"><a href="about.html" class="overlay__about">
+          <span class="text--letterspace">Abou</span>t
+        </a></li>
+        <li class="overlay__menu__list"><a href="" class="overlay__resume"  target="_blank">
+          <span class="text--letterspace">Resum</span>e
+        </a></li>
+
+        <li class="overlay__menu__list">
+          <div class="clearfix">
+            <a href="https://dribbble.com/bighappy" class="overlay__icon overlay__icon__dribble" target="_blank">
+              <i class="fab fa-dribbble"></i>
+            </a>
+            <a href="https://www.facebook.com/rfujiki0625" class="overlay__icon overlay__icon__facebook" target="_blank">
+              <i class="fab fa-facebook-square"></i>
+            </a>
+            <a href="https://www.instagram.com/ryosukefujiki/" class="overlay__icon overlay__icon__instagram" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </li>
+
+      </ul>
+    </nav>
+  </div>
+
+
+<div class="heroImg lineandballImg">
+  <p class="workNumber">02-07</p>
+  <h1 class="heading">LINE and BALL</h1>
+  <p class="workCategory">UI Design / Game Design / Planning</p>
+</div>
+
+ <section class="work__contents">
+   <div class="content overview clearfix">
+
+    <div class="leftSide">
+     <div class="content__overview">
+       <p class="content__subtitle">Overview</p>
+       <h2 class="content__title">鮮やかに解き明かすパズルゲームアプリ</h2>
+       <p class="overview__text">CyberAgent Internship 2017 UIDA にて開催された「新しいパズルゲームの企画とUIを考える」がテーマのインターンシップで UI発明賞 をいただいた作品です。点と点を結び、自由に線を描くことで、ボールをゴールへと転がします。色の組み合わせで、描かれる線の性質が変わり「壊れる」「跳ねる」などの様々な性質を作り出し、パズルを解き明かす多様なパターンを生み出します。</p>
+     </div>
+
+      <div class="content__award">
+     <p class="content__subtitle">Award</p>
+     <h2 class="content__title">「UIDA」 UI発明賞 受賞</h2>
+     <p class="overview__text">
+       <a class="link__text lineandballText" href="http://www.career.dentsu.jp/intern/2017/" target="_blank">CyberAgent Internship UIDA</a>　UI発明賞　受賞</p>
+    </div>
+    </div>
+
+    <div class="rightSide">
+
+      <div class="content__details">
+       <p class="content__right__subtitle">ProjectDetails</p>
+       <p class="overview__text">
+         制作日 : 2017年8月<br>
+         制作期間: 1week </p>
+      </div>
+
+      <div class="content__tool">
+       <p class="content__right__subtitle">Tool</p>
+       <p class="overview__text">
+         Adobe Illustrator<br>
+         Adobe Photoshop<br>
+         Sketch<br>
+         Prott<br>
+        </p>
+      </div>
+
+      <div class="content__team">
+       <p class="content__right__subtitle">Personal Work</p>
+       <p class="overview__text">
+         藤木 良祐<br>
+         <span class="overview__text__task">　- Design</span><br>
+         <span class="overview__text__task">　- Planning</span><br>
+      </div>
+
+    </div>
+
+    <img src="images/lineandball/lineandball.png" alt="" class="worksImg worksImg--big">
+    <img src="images/lineandball/lineandball2.png" alt="" class="worksImg worksImg--big">
+
+
+
+   </div>
+
+
+   <div class="content process">
+     <div class="content__process clearfix">
+       <p class="content__subtitle">Process</p>
+       <h2 class="content__title">マッチ3からの脱却</h2>
+       <p class="content__text">大人気ゲームアプリを代表する「パズドラ」や「ツムツム」といったパズルゲームの登場は、世の中のパズルゲームを席巻しながらも、パズルゲーム業界を「マス目」という制約に囚わせてしまいました。そこで、パズルゲームに必要不可欠なルール性という制約を残しつつも、答えを導く選択が無限に開かれた自由度の高いパズルゲームを提案しました。</p>
+       <div class="leftSide">
+         <img src="images/lineandball/process01.png" alt="" class="worksImg worksImg--Small worksImg--Small--left">
+         <img src="images/lineandball/process03.png" alt="" class="worksImg worksImg--Small worksImg--Small--left">
+
+
+       </div>
+       <div class="rightSide">
+         <img src="images/lineandball/process02.png" alt="" class="worksImg worksImg--Small worksImg--Small--right">
+         <img src="images/lineandball/process04.png" alt="" class="worksImg worksImg--Small worksImg--Small--left">
+
+       </div>
+
+     </div>
+   </div>
+
+   <div class="content contents">
+     <div class="content__process clearfix">
+       <p class="content__subtitle">Game Tutorial</p>
+       <h2 class="content__title">指から色鮮やかな「LINE」を作り出す</h2>
+       <p class="content__text">画面上に存在する点と点を結ぶことで、「LINE」が引かれます。「LINE」の引き方や、どの点と結びつけるかで、無限の選択肢と答えが用意されています。「LINE」が引かれると、右上の数字が1つ減り、数が0になると、「BALL」が転がります。「BALL」がゴールにたどり着くことのできる「LINE」を探りあて描き明かすパズルゲームです。</p>
+       <div class="leftSide">
+         <img src="images/lineandball/iPhone01.png" alt="" class="worksImg--Small worksImg--Small--left">
+         <img src="images/lineandball/iPhone03.png" alt="" class="worksImg--Small worksImg--Small--left">
+       </div>
+       <div class="rightSide">
+         <img src="images/lineandball/iPhone02.png" alt="" class="worksImg--Small worksImg--Small--right">
+         <img src="images/lineandball/iPhone04.png" alt="" class="worksImg--Small worksImg--Small--left">
+       </div>
+
+
+
+     </div>
+   </div>
+
+   <div class="content research">
+     <div class="content__process  clearfix">
+       <p class="content__subtitle">Variety</p>
+       <h2 class="content__title">5種類の「LINE」の性質</h2>
+       <p class="content__text">様々な色の点を結ぶことで、多種多様な性質をもつ「LINE」を生み出すことができます。黄色の点同士を結ぶと「飛び跳ねる性質をもつLINE」を作り、青色の点同士を結ぶと「壊れ砕ける性質をもつLINE」を作り出します。さらに、赤色と黄色の点を結ぶと「摩擦抵抗の少ない性質をもつLINEを作り、青色と黄色の点を結ぶと「粘着性をもつLINE」を作り出します。</p>
+       <div class="leftSide">
+         <img src="images/lineandball/bouncing.png" alt="" class="worksImg worksImg--Small worksImg--Small--left">
+         <img src="images/lineandball/slippery.png" alt="" class="worksImg worksImg--Small worksImg--Small--left">
+       </div>
+       <div class="rightSide">
+          <img src="images/lineandball/fragile.png" alt="" class="worksImg worksImg--Small worksImg--Small--right">
+           <img src="images/lineandball/stickey.png" alt="" class="worksImg worksImg--Small worksImg--Small--right">
+       </div>
+
+
+     </div>
+
+
+   </div>
+
+   <div class="content copntents">
+     <div class="content__process clearfix">
+       <p class="content__subtitle">Game Design</p>
+       <h2 class="content__title">レベル調整</h2>
+       <p class="content__text">画面上に広がる「LINE」の色や数を調整することによって、ゲームの難易度を操作することが可能です。点の種類や色を増やせば増やすほど、生み出すことのできる「LINE」の選択肢が増え、複雑性と難易度を上げることができます。</p>
+       <div class="leftSide">
+         <img src="images/lineandball/iPhone05.png" alt="" class="worksImg--Small worksImg--Small--left">
+       </div>
+       <div class="rightSide">
+         <img src="images/lineandball/iPhone06.png" alt="" class="worksImg--Small worksImg--Small--right">
+       </div>
+
+
+
+     </div>
+   </div>
+
+ </section>
+
+
+ <footer class="footer">
+   © 2018 Ryosuke Fujiki
+ </footer>
+
+
+</body>
 </html>

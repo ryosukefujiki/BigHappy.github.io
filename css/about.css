@@ -1,221 +1,255 @@
-html{
-    line-height: 24px;
-}
-body{
-    background: #ffffff;
-    font-size: 62.5%;
-    font-family: 'Noto Sans', sans-serif;
-    color: #272727;
+
+.heading{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 72px;
+  color: #272727;
+  display: block;
+  margin: 360px auto;
+  text-align: center;
 }
 
-.header{
-    padding-top: 50px;
-    padding-left: 150px;
-    padding-right: 150px;
-    display: block;
-    overflow: hidden;
-}
-.header img{
-    width: 300px;
-    float: left;
-}
-.header nav{
-    padding-top: 120px;
-    float: right;
-    display: block;
-    overflow: hidden;
-}
-.header nav ul li{
-    float: left;
-    font-size: 1.2rem;
-    margin-right: 50px;
+.about__contents{
+  margin: 0 auto;
+  width: 720px;
+  padding-bottom: 200px;
+  /* background: #f1f1f1; */
 }
 
-.header nav ul li a{
-    text-decoration: none;
-    color: #272727;
+.about__introduction{
+  margin: 0 auto;
+}
+.about__introduction__img{
+  margin-top: 24px;
+  display: block;
+  width: 216px;
+  float: left;
 }
 
-.header nav ul li a:hover{
-    transition: 0.2s;
-    color: #d5d5d5;
+.about__introduction__text{
+  display: block;
+  float: left;
+  margin-left: 40px;
+  width: 462px;
+  font-size: 16px;
 }
 
-hr {
-    width: 900px;
-    height: 30px;
-    border: none;
-    border-bottom: 2px #e9e9e9 solid;
-}
-
-.container{
-    padding-top: 48px;
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-bottom: 48px;
-}
-
-.container h1{
-    line-height: 48px;
-    font-weight: normal;
-    font-size: 1.8rem;
-    margin: 0 auto 24px;
-    width: 500px;
-}
-.container img{
-    width: 500px;
-    display: block;
-    margin: 0 auto;
-}
-.container h2{
-    line-height: 48px;
-    font-weight: normal;
-    font-size: 1.4rem;
-    margin: 48px auto 0px;
-    width: 500px;
+.about__introduction__title{
+  display: block;
+  float: left;
+  font-size: 24px;
+  line-height: 48px;
 }
 
 
-.text{
-    line-height: 48px;
-    font-size: 1.0rem;
-    margin: 0 auto;
-    width: 500px;
+.about__introduction__details{
+  display: block;
+  float: left;
+  font-size: 16px;
+  color: #9b9b9b;
+  line-height: 48px;
 }
 
-.text a{
-    color: #272727;
+
+.about__skill{
+  margin: 0 auto;
+  margin-top: 180px;
 }
 
-.anchor_text{
-    display: inline;
+.about__skill__img{
+  margin-top: 30px;
+  display: block;
+  width: 416px;
+  float: left;
 }
 
-.portfolio a{
-    margin-right: 10px;
+.about__skill__text{
+  display: block;
+  float: left;
+  margin-right: 20px;
+  width: 280px;
+  font-size: 16px;
 }
-/*footerにまつわるスタイル*/
-.footer{
-    background: #f9f9f9;
-    color: #d5d5d5;
-    text-align: center;
-    padding: 20px;
-    font-size: 0.8rem;
+
+.about__skill__title{
+  display: block;
+  float: left;
+  font-size: 24px;
+  line-height: 48px;
+}
+
+
+.about__skill__details{
+  display: block;
+  float: left;
+  font-size: 16px;
+  color: #9b9b9b;
+  line-height: 48px;
+}
+
+
+.about__internship{
+  margin: 0 auto;
+  margin-top: 180px;
+}
+
+.about__internship__img{
+  margin-top: 80px;
+  display: block;
+  width: 216px;
+  float: left;
+}
+
+.about__internship__text{
+  display: block;
+  float: left;
+  margin-left: 40px;
+  width: 462px;
+  font-size: 16px;
+}
+
+.about__internship__title{
+  display: block;
+  float: left;
+  font-size: 24px;
+  line-height: 48px;
+}
+
+
+.about__internship__details{
+  display: block;
+  float: left;
+  font-size: 16px;
+  color: #9b9b9b;
+  line-height: 48px;
+}
+
+
+.about__contact{
+  box-sizing: border-box;
+  text-align: center;
+  width: 396px;
+  height: 72px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 180px;
+  padding-top: 22px;
+  border-radius: 72px;
+  text-decoration: none;
+  color: #FFF;
+  font-size: 24px;
+  background: #272727;
+  transition: .4s;
+  font-weight: 400;
+  box-shadow: 0px 0px 10px 0px rgba(74,74,74,0.2);
+}
+
+.about__contact:hover {
+  /* -webkit-transform: translateY(-8px); */
+  box-shadow: 0px 8px 20px 10px rgba(74,74,74,0.2);
 }
 
 
 @media screen and (max-width: 1024px) {
     /* 1024pxまでの幅の場合に適応される */
-    body {
-        background-color:#ffffff;
-    }
-    hr {
-        width: 500px;
-    }
-    .header nav ul li{
-        margin-right: 30px;
+    .heading{
+      margin: 320px auto;
     }
 }
 @media screen and (max-width: 768px) {
     /* 768pxまでの幅の場合に適応される */
-    body {
-        background-color:#ffffff;
-    }
-    .header{
-        padding-top: 50px;
-        padding-left: 100px;
-        padding-right: 100px;
-    }
-    .header img{
-        width: 250px;
-    }
-    .header nav{
-        padding-top: 100px;
-    }
-    .header nav ul li{
-        margin-right: 50px;
+    .heading{
+      margin: 520px auto;
     }
 
-    hr {
-        width: 600px;
+    .about__contents{
+      width: 640px;
     }
+    .about__introduction__img{
+      margin-top: 72px;
+      width: 184px;
+    }
+    .about__introduction__text{
+      margin-left: 20px;
+      width: 420px;
+    }
+
+    .about__skill__img{
+      margin-top: 30px;
+      width: 376px;
+      float: left;
+    }
+
+    .about__skill__text{
+      margin-right: 20px;
+      width: 220px;
+    }
+
+
+    .about__internship{
+      margin: 0 auto;
+      margin-top: 180px;
+    }
+
+    .about__internship__img{
+      margin-top: 80px;
+      width: 184px;
+    }
+
+    .about__internship__text{
+      margin-left: 20px;
+      width: 420px;
+    }
+
 }
 @media screen and (max-width: 480px) {
     /* 480pxまでの幅の場合に適応される */
-    body {
-        background-color:#ffffff;
+    .heading{
+      font-size: 48px;
+      margin: 360px auto;
     }
-    .header{
-        padding-top: 50px;
-        padding-left: 15px;
-        padding-right: 15px;
+    .about__contents{
+      width: 320px;
     }
-    .header img{
-        width: 150px;
+    .about__introduction__img{
+      margin-left: 0px;
+      margin-top: 72px;
+      width: 184px;
     }
-    .header nav{
-        padding-top: 50px;
-    }
-    .header nav ul li{
-        margin-right: 25px;
-    }
-
-    hr {
-        width: 300px;
-    }
-    .container{
-        padding-top: 15px;
-        padding-left: 35px;
-        padding-right: 35px;
-        padding-bottom: 72px;
+    .about__introduction__text{
+      margin-left: 0px;
+      width: 320px;
     }
 
-    .container h1{
-        font-size: 1.4rem;
-        width: 300px;
-        margin: 0 auto 0;
+    .about__skill__img{
+      margin-top: 30px;
+      width: 120px;
+      float: left;
+      display: none;
     }
-    .container img{
-        width: 300px;
+
+    .about__skill__text{
+      margin-right: 20px;
+      width: 220px;
     }
-    .container h2{
-        margin: 24px auto 0px;
-        font-size: 1.2rem;
-        width: 300px;
+
+
+    .about__internship{
+      margin: 0 auto;
+      margin-top: 180px;
     }
-    .text{
-        font-size: 1.0rem;
-        width: 300px;
+
+    .about__internship__img{
+      margin-top: 80px;
+      width: 184px;
+      margin-left: 0px;
+    }
+
+    .about__internship__text{
+      margin-left: 0px;
+      width: 320px;
     }
 
 }
 @media screen and (max-width: 320px) {
     /* 320pxまでの幅の場合に適応される */
-    body {
-        background-color: #ffffff;
-    }
-    .header img{
-        width: 120px;
-    }
-    .header nav{
-        padding-top: 40px;
-    }
-    .header nav ul li{
-        margin-right: 10px;
-    }
-    hr {
-        width: 280px;
-    }
-    .container img{
-        width: 240px;
-    }
-    .container h1{
-        width: 240px;
-    }
-    .container h2{
-        width: 240px;
-    }
-    .text{
-        width: 240px;
-    }
 }

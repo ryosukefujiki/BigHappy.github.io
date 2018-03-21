@@ -1,0 +1,442 @@
+/* ULタグの余白をリセットする */
+
+ul {
+margin: 0 0 0 0;
+padding: 0;
+}
+
+.link__text:hover{
+
+}
+
+
+/* clearfix */
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+body{
+  color: #272727;
+  font-family:-apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI","Noto Sans Japanese","ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
+}
+
+/* Headerのバー */
+.header__title{
+  position: fixed;
+  top: 64px;
+  left: 74px;
+  z-index: 10;
+  display: block;
+}
+.header__title__img{
+  height: 64px;
+}
+
+.header__button{
+  position: fixed;
+  top: 64px;
+  right: 74px;
+  z-index: 10;
+  display: block;
+  cursor: pointer;
+}
+
+.header__button__img{
+  height: 64px;
+}
+
+
+.header__button,
+.header__button span {
+  display: inline-block;
+  transition: all .4s;
+  box-sizing: border-box;
+}
+
+.header__button {
+  width: 64px;
+  height: 64px;
+}
+
+.header__button span {
+  margin: block;
+  position: fixed;
+  top: 64px;
+  right: 96px;
+  width: 20px;
+  height: 4px;
+  background-color: #272727;
+  border-radius: 4px;
+}
+
+.header__button span:nth-of-type(1) {
+  top: 86px;
+}
+.header__button span:nth-of-type(2) {
+  top: 94px;
+}
+.header__button span:nth-of-type(3) {
+  top: 102px;
+}
+
+/* ハンバーガーのアニメーション */
+.header__button span:nth-of-type(1) {
+  -webkit-animation: line1 .75s forwards;
+  animation: line1 .75s forwards;
+}
+@-webkit-keyframes line1 {
+  0% {
+    -webkit-transform: translateY(8px) rotate(45deg);
+  }
+  50% {
+    -webkit-transform: translateY(8px) rotate(0);
+  }
+  100% {
+    -webkit-transform: translateY(0) rotate(0);
+  }
+}
+@keyframes line1 {
+  0% {
+    transform: translateY(8px) rotate(45deg);
+  }
+  50% {
+    transform: translateY(8px) rotate(0);
+  }
+  100% {
+    transform: translateY(0) rotate(0);
+  }
+}
+.header__button span:nth-of-type(2) {
+  transition: all .25s .25s;
+  opacity: 1;
+}
+.header__button span:nth-of-type(3) {
+  -webkit-animation: line2 .75s forwards;
+  animation: line2 .75s forwards;
+}
+@-webkit-keyframes line2 {
+  0% {
+    -webkit-transform: translateY(-8px) rotate(-45deg);
+  }
+  50% {
+    -webkit-transform: translateY(-8px) rotate(0);
+  }
+  100% {
+    -webkit-transform: translateY(0) rotate(0);
+  }
+}
+@keyframes line2 {
+  0% {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(0);
+  }
+  100% {
+    transform: translateY(0) rotate(0);
+  }
+}
+.header__button.active span:nth-of-type(1) {
+  -webkit-animation: active-line1 .75s forwards;
+  animation: active-line1 .75s forwards;
+}
+@-webkit-keyframes active-line1 {
+  0% {
+    -webkit-transform: translateY(0) rotate(0);
+  }
+  50% {
+    -webkit-transform: translateY(8px) rotate(0);
+  }
+  100% {
+    -webkit-transform: translateY(8px) rotate(45deg);
+  }
+}
+@keyframes active-line1 {
+  0% {
+    transform: translateY(0) rotate(0);
+  }
+  50% {
+    transform: translateY(8px) rotate(0);
+  }
+  100% {
+    transform: translateY(8px) rotate(45deg);
+  }
+}
+.header__button.active span:nth-of-type(2) {
+  opacity: 0;
+}
+.header__button.active span:nth-of-type(3) {
+  -webkit-animation: active-line3 .75s forwards;
+  animation: active-line3 .75s forwards;
+}
+@-webkit-keyframes active-line3 {
+  0% {
+    -webkit-transform: translateY(0) rotate(0);
+  }
+  50% {
+    -webkit-transform: translateY(-8px) rotate(0);
+  }
+  100% {
+    -webkit-transform: translateY(-8px) rotate(-45deg);
+  }
+}
+@keyframes active-line3 {
+  0% {
+    transform: translateY(0) rotate(0);
+  }
+  50% {
+    transform: translateY(-8px) rotate(0);
+  }
+  100% {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+}
+
+
+
+/* overlayに対するスタイル */
+.overlay {
+  z-index: 5;
+  position: fixed;
+  background: rgba(255, 255, 255, 0.80);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .35s, visibility .35s, height .35s;
+  overflow: hidden;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.overlay.open {
+  opacity: 1;
+  visibility: visible;
+  height: 100%;
+}
+
+.overlay.open li {
+
+  animation: fadeInRight .5s ease forwards;
+  animation-delay: .35s;
+}
+.overlay.open li:nth-of-type(2) {
+  animation-delay: .4s;
+}
+.overlay.open li:nth-of-type(3) {
+  animation-delay: .45s;
+}
+.overlay.open li:nth-of-type(4) {
+  animation-delay: .50s;
+}
+.overlay.open li:nth-of-type(5) {
+  animation-delay: .55s;
+}
+
+
+.overlay nav {
+  position: relative;
+  height: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 36px;
+  text-align: center;
+}
+.text--letterspace{
+  letter-spacing: 10px;
+}
+
+.overlay ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  display: inline-block;
+  position: relative;
+  height: 100%;
+}
+.overlay ul li {
+  display: block;
+  position: relative;
+  opacity: 0;
+  margin-bottom: 48px;
+}
+.overlay ul li a {
+  display: block;
+  position: relative;
+  color: #272727;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.overlay ul li a:hover,
+.overlay ul li a:focus,
+.overlay ul li a:active {
+  color: #D2DADF;
+}
+.overlay ul li a:hover:after,
+.overlay ul li a:focus:after,
+.overlay ul li a:active:after {
+  width: 100%;
+  background: #D2DADF;
+}
+
+.overlay ul li ul{
+  margin: 0 auto;
+  text-align: center;
+  width: 200px;
+}
+.overlay__icon{
+  display: block;
+  float: left;
+}
+.overlay__icon img{
+  width: 36px;
+  transition: 0.3s;
+  fill: black;
+}
+.overlay__icon img:hover{
+  width: 36px;
+  fill: red;
+}
+.overlay__icon__dribble{
+  font-size: 32px;
+  margin-right: 40px;
+}
+.overlay__icon__facebook{
+  font-size: 34px;
+  margin-right: 42px;
+}
+
+
+button:focus {
+  outline: 0;
+}
+
+.open-menu,
+.close-menu,
+.button {
+  cursor: pointer;
+  transition: transform 0.30s;
+}
+.open-menu:hover,
+.close-menu:hover,
+.button:hover {
+  transform: scale(1.1);
+}
+
+.overlay ul li a:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 43.5%;
+  width: 0%;
+  transform: translateX(-50%);
+  height: 3px;
+  background: #FFF;
+  transition: .35s;
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    left: 20%;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+
+
+
+.footer{
+  box-sizing: border-box;
+  height: 42px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-size: 12px;
+  background: #f9f9f9;
+  color: #d5d5d5;
+  text-align: center;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    /* 1024pxまでの幅の場合に適応される */
+    .header__title{
+      left: 64px;
+    }
+
+    .header__button{
+      right: 64px;
+
+    }
+
+    .header__button span {
+      right: 86px;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    /* 768pxまでの幅の場合に適応される */
+}
+@media screen and (max-width: 480px) {
+    /* 480pxまでの幅の場合に適応される */
+    .header__title{
+      top: 48px;
+      left: 24px;
+    }
+
+    .header__button{
+      top: 48px;
+      right: 24px;
+
+    }
+
+    .header__button span {
+      top: 48px;
+      right: 46px;
+    }
+
+    .header__button span:nth-of-type(1) {
+      top: 70px;
+    }
+    .header__button span:nth-of-type(2) {
+      top: 78px;
+    }
+    .header__button span:nth-of-type(3) {
+      top: 86px;
+    }
+
+}
+@media screen and (max-width: 320px) {
+    /* 320pxまでの幅の場合に適応される */
+    .header__title{
+      top: 24px;
+    }
+
+    .header__button{
+      top: 24px;
+
+    }
+
+    .header__button span {
+      top: 48px;
+    }
+
+    .header__button span:nth-of-type(1) {
+      top: 46px;
+    }
+    .header__button span:nth-of-type(2) {
+      top: 54px;
+    }
+    .header__button span:nth-of-type(3) {
+      top: 62px;
+    }
+}

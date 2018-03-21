@@ -1,0 +1,215 @@
+/* .swiper-container {
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    background: red;
+    margin-top: 200px;
+} */
+
+html, body {
+  position: relative;
+  height: 100%;
+}
+
+
+.swiper-slide{
+  position: relative;
+  padding-top: 30px;
+}
+
+
+.contents__bg{
+  position: absolute;
+  width: 794px;
+  height: 496px;
+  border-radius: 20px;
+  background: #fcfcfc;
+  box-shadow: 0px 0px 10px 0px rgba(39,39,39,0.2);
+
+}
+
+.trim{
+  z-index: 4;
+  overflow: hidden;
+  width: 740px;
+  height: 444px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.trim img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+.contents__work__img{
+  /* padding-top: 60px; */
+  width: 792px;
+}
+
+
+
+#svg{
+  fill: red;
+}
+.swiper-button-prev{
+  z-index: 2;
+  left: 94px;
+  font-size: 20px;
+  font-family: 'Noto Sans', sans-serif;
+  color: #272727;
+  transition: 0.3s;
+  animation-timing-function: ease-out;
+}
+.swiper-button-next{
+  z-index: 2;
+  right: 94px;
+  font-size: 20px;
+  font-family: 'Noto Sans', sans-serif;
+  color: #272727;
+  transition: 0.3s;
+  animation-timing-function: ease-out;
+}
+.swiper-button-next:hover{
+  color: #D2DADF;
+}
+.swiper-button-prev:hover{
+  color: #D2DADF;
+}
+
+/* プログラスバー */
+.swiper-container-horizontal>.swiper-pagination-progressbar{
+  top: auto;
+  left: 0;
+  bottom: 0;
+  height: 12px;
+}
+.swiper-pagination-progressbar{
+  background-color: rgba(210,218,223,0.2);
+}
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill{
+  background-color: rgba(210,218,223,0.4);
+
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+    /* 1024pxまでの幅の場合に適応される */
+
+
+    .contents__bg{
+      width: 670px;
+      height: 419px;
+    }
+
+    .trim{
+      width: 626px;
+      height: 375px;
+    }
+
+    .swiper-button-prev{
+      left: 64px;
+    }
+    .swiper-button-next{
+      right: 64px;
+    }
+}
+@media screen and (max-width: 768px) {
+    /* 768pxまでの幅の場合に適応される */
+    .contents__bg{
+      width: 419px;
+      height: 670px;
+    }
+
+    .trim{
+      width: 375px;
+      height: 626px;
+    }
+    .trim img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      width: auto;
+      height: 100%;
+}
+.trim img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: auto;
+  height: 100%;
+}
+
+.lineandballTrim img{
+  left: 10%;
+}
+.playfulfesTrim img{
+  left: 30%;
+}
+
+}
+@media screen and (max-width: 480px) {
+    /* 480pxまでの幅の場合に適応される */
+    .contents__bg{
+      width: 232px;
+      height: 372px;
+    }
+
+    .trim{
+      width: 208px;
+      height: 347px;
+    }
+    .swiper-button-prev{
+      top: auto;
+      bottom: 30px;
+      left: 36px;
+      font-size: 16px;
+    }
+    .swiper-button-next{
+      top: auto;
+      bottom: 30px;
+      right: 36px;
+      font-size: 16px;
+    }
+}
+@media screen and (max-width: 320px) {
+    /* 320pxまでの幅の場合に適応される */
+}
