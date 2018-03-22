@@ -60,6 +60,7 @@ html, body {
 .swiper-button-prev{
   z-index: 2;
   left: 94px;
+  /* left: 128px; */
   font-size: 20px;
   font-family: 'Noto Sans', sans-serif;
   color: #272727;
@@ -69,6 +70,7 @@ html, body {
 .swiper-button-next{
   z-index: 2;
   right: 94px;
+  /* right: 128px; */
   font-size: 20px;
   font-family: 'Noto Sans', sans-serif;
   color: #272727;
