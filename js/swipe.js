@@ -2,6 +2,7 @@ var swiper = new Swiper('.swiper-container', {
       slidesPerView: 1,
       spaceBetween: 0,
       loop: true,
+      slidesPerGroup: false;
       pagination: {
         el: '.swiper-pagination',
         type: 'progressbar',
@@ -17,7 +18,7 @@ var swiper = new Swiper('.swiper-container', {
       autoplay: {
         delay: 3000,
         stopOnLast: false,
-        disableOnInteraction: false 
+        disableOnInteraction: false
       },
 
 
