@@ -1,11 +1,13 @@
 
 .heading{
-  font-family: 'Noto Sans', sans-serif;
   font-size: 72px;
   color: #272727;
   display: block;
   margin: 360px auto;
   text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+  font-style: italic;
 }
 
 .work__contents{
