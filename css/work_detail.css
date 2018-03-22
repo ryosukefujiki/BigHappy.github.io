@@ -226,19 +226,19 @@ html, body{
     /* 480pxまでの幅の場合に適応される */
 
     .workNumber{
-      font-size: 20px;
-      left: 24px;
-      bottom: 148px;
-    }
-    .heading{
-      font-size: 28px;
-      left: 24px;
-      bottom: 106px;
-    }
-    .workCategory{
       font-size: 16px;
       left: 24px;
-      bottom: 72px;
+      bottom: 94px;
+    }
+    .heading{
+      font-size: 22px;
+      left: 24px;
+      bottom: 60px;
+    }
+    .workCategory{
+      font-size: 14px;
+      left: 24px;
+      bottom: 32px;
     }
 
     .work__contents{
@@ -347,21 +347,21 @@ html, body{
 }
 @media screen and (max-width: 320px) {
     /* 320pxまでの幅の場合に適応される */
+
     .workNumber{
-      font-size: 20px;
+      font-size: 16px;
       left: 24px;
-      bottom: 148px;
+      bottom: 94px;
     }
     .heading{
-      font-size: 24px;
+      font-size: 18px;
       left: 24px;
-      bottom: 106px;
-      font-family: 'Noto Sans', sans-serif;
+      bottom: 60px;
     }
     .workCategory{
       font-size: 12px;
       left: 24px;
-      bottom: 72px;
+      bottom: 32px;
     }
 
     .work__contents{
