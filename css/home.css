@@ -202,12 +202,14 @@ html, body {
       bottom: 30px;
       left: 36px;
       font-size: 16px;
+      font-family: 'Noto Sans', sans-serif;
     }
     .swiper-button-next{
       top: auto;
       bottom: 30px;
       right: 36px;
       font-size: 16px;
+      font-family: 'Noto Sans', sans-serif;
     }
 }
 @media screen and (max-width: 320px) {

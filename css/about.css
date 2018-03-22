@@ -206,6 +206,7 @@
     .heading{
       font-size: 48px;
       margin: 360px auto;
+      font-family: 'Noto Sans', sans-serif;
     }
     .about__contents{
       width: 320px;
