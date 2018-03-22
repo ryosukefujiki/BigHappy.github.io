@@ -2,7 +2,7 @@ var swiper = new Swiper('.swiper-container', {
       slidesPerView: 1,
       spaceBetween: 0,
       loop: true,
-      slidesPerGroup: false;
+      // slidesPerGroup: false;
       pagination: {
         el: '.swiper-pagination',
         type: 'progressbar',
