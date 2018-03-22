@@ -390,12 +390,12 @@ button:focus {
     /* 480pxまでの幅の場合に適応される */
     .header__title{
       top: 38px;
-      left: 24px;
+      left: 20px;
     }
 
     .header__button{
       top: 38px;
-      right: 24px;
+      right: 20px;
 
     }
 
