@@ -401,7 +401,7 @@ button:focus {
 
     .header__button span {
       top: 38px;
-      right: 46px;
+      right: 42px;
     }
 
     .header__button span:nth-of-type(1) {
