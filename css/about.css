@@ -101,11 +101,15 @@
 }
 
 
+
 .about__internship{
   margin: 0 auto;
   margin-top: 180px;
 }
 
+.sp_about__skill__img{
+  display: none;
+}
 .about__internship__img{
   margin-top: 80px;
   display: block;
@@ -231,7 +235,7 @@
         position: relative;
         float: left;
         box-shadow: 0px 0px 4px 0px rgba(39,39,39,0.2);
-        margin-bottom: 24px;
+        margin-bottom: 12px;
     }
     .trim img {
       position: absolute;
@@ -255,6 +259,27 @@
       margin-left: 0px;
       width: 320px;
     }
+    .about__introduction__title{
+      font-size: 18px;
+    }
+    .about__introduction__details{
+      font-size: 12px;
+      line-height: 24px;
+    }
+    .about__skill__title{
+      font-size: 18px;
+    }
+    .about__skill__details{
+      font-size: 12px;
+      line-height: 24px;
+    }
+    .about__internship__title{
+      font-size: 18px;
+    }
+    .about__internship__details{
+      font-size: 12px;
+      line-height: 24px;
+    }
 
     .about__skill__img{
       margin-top: 30px;
@@ -263,16 +288,31 @@
       display: none;
     }
 
+    .sp_about__skill__img{
+      display: block;
+      width: 320px;
+      margin-left: 0px;
+      box-shadow: 0px 0px 4px 0px rgba(39,39,39,0.2);
+      margin-bottom: 12px;
+    }
+
     .about__skill__text{
       margin-right: 20px;
       width: 220px;
     }
 
 
+    .about__skill{
+      margin: 0 auto;
+      margin-top: 48px;
+    }
+
     .about__internship{
       margin: 0 auto;
-      margin-top: 180px;
+      margin-top: 48px;
     }
+
+
 
     .about__internship__img{
       margin-top: 0px;
