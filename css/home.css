@@ -198,18 +198,20 @@ html, body {
       height: 347px;
     }
     .swiper-button-prev{
-      top: auto;
+      /* top: auto;
       bottom: 30px;
       left: 36px;
       font-size: 16px;
-      font-family: 'Noto Sans', sans-serif;
+      font-family: 'Noto Sans', sans-serif; */
+      display: none;
     }
     .swiper-button-next{
-      top: auto;
+      /* top: auto;
       bottom: 30px;
       right: 36px;
       font-size: 16px;
-      font-family: 'Noto Sans', sans-serif;
+      font-family: 'Noto Sans', sans-serif; */
+      display: none;
     }
 }
 @media screen and (max-width: 320px) {
