@@ -170,9 +170,9 @@ html, body{
   float: left;
 }
 
-.rightSide{
+/* .rightSide{
   float: right;
-}
+} */
 
 .worksImg{
 
@@ -187,8 +187,12 @@ html, body{
 
 .worksImg--Small{
   display: block;
+  float: left;
   margin-top: 44px;
   width: 320px;
+}
+.imageEven{
+  margin-left: 80px;
 }
 
 .leftSide{
@@ -334,6 +338,10 @@ html, body{
     }
 
 
+    .imageEven{
+      margin-left: 0px;
+    }
+
 
 
 }
@@ -412,5 +420,9 @@ html, body{
 
     .content__text{
       font-size: 12px;
+    }
+
+    .imageEven{
+      margin-left: 0px;
     }
 }
