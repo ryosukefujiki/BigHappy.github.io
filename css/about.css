@@ -8,6 +8,26 @@
   text-align: center;
 }
 
+.trim {
+    margin-top: 24px;
+    overflow: hidden;
+    width: 216px;/* トリミングしたい枠の幅 */
+    height: 288px;/* トリミングしたい枠の高さ */
+    position: relative;
+    float: left;
+    box-shadow: 0px 0px 4px 0px rgba(39,39,39,0.2);
+}
+.trim img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: auto;
+  height: 100%;
+}
+
 .about__contents{
   margin: 0 auto;
   width: 720px;
@@ -17,12 +37,6 @@
 
 .about__introduction{
   margin: 0 auto;
-}
-.about__introduction__img{
-  margin-top: 24px;
-  display: block;
-  width: 216px;
-  float: left;
 }
 
 .about__introduction__text{
@@ -208,13 +222,34 @@
       margin: 360px auto;
       font-family: 'Noto Sans', sans-serif;
     }
+
+    .trim {
+        margin-top: 24px;
+        overflow: hidden;
+        width: 320px;/* トリミングしたい枠の幅 */
+        height: 240px;/* トリミングしたい枠の高さ */
+        position: relative;
+        float: left;
+        box-shadow: 0px 0px 4px 0px rgba(39,39,39,0.2);
+        margin-bottom: 24px;
+    }
+    .trim img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      width: auto;
+      height: 100%;
+    }
+
     .about__contents{
       width: 320px;
     }
     .about__introduction__img{
       margin-left: 0px;
-      margin-top: 72px;
-      width: 184px;
+      margin-top: 0px;
     }
     .about__introduction__text{
       margin-left: 0px;
@@ -240,8 +275,7 @@
     }
 
     .about__internship__img{
-      margin-top: 80px;
-      width: 184px;
+      margin-top: 0px;
       margin-left: 0px;
     }
 
