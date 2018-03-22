@@ -296,6 +296,45 @@ html, body{
     }
 
 
+    .familybookImg{
+      background: rgba(39, 39, 39, 0.1) url("../images/home/familybook_home.png");
+      background-blend-mode: multiply;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment:scroll;
+      background-size: cover;
+    }
+
+    .lineandballImg{
+      background: rgba(39, 39, 39, 0.1) url("../images/home/lineandball.png");
+      background-blend-mode: multiply;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment:scroll;
+      background-size: cover;
+    }
+
+
+    .playfulfesImg{
+      background: rgba(39, 39, 39, 0.1) url("../images/home/playfulfes.png");
+      background-blend-mode: multiply;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment:scroll;
+      background-size: cover;
+    }
+
+    .scrapboardImg{
+      background: rgba(39, 39, 39, 0.1) url("../images/home/scrapboard.png");
+      background-blend-mode: multiply;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment:scroll;
+      background-size: cover;
+    }
+
+
+
 
 }
 @media screen and (max-width: 320px) {

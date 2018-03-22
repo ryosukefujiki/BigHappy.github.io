@@ -31,7 +31,7 @@
   height: 485px;
   border-radius: 20px;
   background: #fcfcfc;
-  box-shadow: 0px 0px 10px 0px rgba(39,39,39,0.2);
+  box-shadow: 0px 0px 4px 0px rgba(39,39,39,0.2);
 	/* left: -30px;
 	top: 0px; */
 }
@@ -113,25 +113,44 @@
 
     .work__contents{
       margin: 0 auto;
-      width: 370px;
+      width: 320px;
       padding-bottom: 200px;
       /* background: #f1f1f1; */
 
     }
     .contents__bg{
-      width: 370px;
-      height: 232px;
+      width: 320px;
+      height: 200px;
     }
 
     .trim{
-      width: 346px;
-      height: 208px;
+      width: 300px;
+      height: 180px;
       position: relative;
-    	left: 12px;
-    	top: 12px;
+    	left: 10px;
+    	top: 10px;
     }
 
 }
 @media screen and (max-width: 320px) {
     /* 320pxまでの幅の場合に適応される */
+    .work__contents{
+      margin: 0 auto;
+      width: 300px;
+      padding-bottom: 200px;
+      /* background: #f1f1f1; */
+
+    }
+    .contents__bg{
+      width: 300px;
+      height: 188px;
+    }
+
+    .trim{
+      width: 280px;
+      height: 168px;
+      position: relative;
+    	left: 10px;
+    	top: 10px;
+    }
 }
