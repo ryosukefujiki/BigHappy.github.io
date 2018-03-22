@@ -388,31 +388,166 @@ button:focus {
 }
 @media screen and (max-width: 480px) {
     /* 480pxまでの幅の場合に適応される */
+
+    .header__title__img{
+      height: 52px;
+    }
+
+    .header__button__img{
+      height: 52px;
+    }
+
     .header__title{
       top: 38px;
-      left: 20px;
+      left: 22px;
     }
 
     .header__button{
       top: 38px;
-      right: 20px;
+      right: 9px;
 
     }
 
     .header__button span {
       top: 38px;
-      right: 42px;
+      right: 39px;
+      width: 16px;
+      height: 3px;
+      border-radius: 3px;
     }
+/*
+    .header__button span {
+      margin: block;
+      position: fixed;
+      top: 64px;
+      right: 96px;
+      width: 20px;
+      height: 4px;
+      background-color: #272727;
+      border-radius: 4px;
+    } */
 
     .header__button span:nth-of-type(1) {
-      top: 60px;
+      top: 57px;
     }
     .header__button span:nth-of-type(2) {
-      top: 68px;
+      top: 63px;
     }
     .header__button span:nth-of-type(3) {
-      top: 76px;
+      top: 69px;
     }
+
+    @-webkit-keyframes line1 {
+      0% {
+        -webkit-transform: translateY(6px) rotate(45deg);
+      }
+      50% {
+        -webkit-transform: translateY(6px) rotate(0);
+      }
+      100% {
+        -webkit-transform: translateY(0) rotate(0);
+      }
+    }
+    @keyframes line1 {
+      0% {
+        transform: translateY(6px) rotate(45deg);
+      }
+      50% {
+        transform: translateY(6px) rotate(0);
+      }
+      100% {
+        transform: translateY(0) rotate(0);
+      }
+    }
+    @-webkit-keyframes line2 {
+      0% {
+        -webkit-transform: translateY(-6px) rotate(-45deg);
+      }
+      50% {
+        -webkit-transform: translateY(-6px) rotate(0);
+      }
+      100% {
+        -webkit-transform: translateY(0) rotate(0);
+      }
+    }
+    @keyframes line2 {
+      0% {
+        transform: translateY(-6px) rotate(-45deg);
+      }
+      50% {
+        transform: translateY(-6px) rotate(0);
+      }
+      100% {
+        transform: translateY(0) rotate(0);
+      }
+    }
+    @-webkit-keyframes active-line1 {
+      0% {
+        -webkit-transform: translateY(0) rotate(0);
+      }
+      50% {
+        -webkit-transform: translateY(6px) rotate(0);
+      }
+      100% {
+        -webkit-transform: translateY(6px) rotate(45deg);
+      }
+    }
+    @keyframes active-line1 {
+      0% {
+        transform: translateY(0) rotate(0);
+      }
+      50% {
+        transform: translateY(6px) rotate(0);
+      }
+      100% {
+        transform: translateY(6px) rotate(45deg);
+      }
+    }
+    @-webkit-keyframes active-line3 {
+      0% {
+        -webkit-transform: translateY(0) rotate(0);
+      }
+      50% {
+        -webkit-transform: translateY(-6px) rotate(0);
+      }
+      100% {
+        -webkit-transform: translateY(-6px) rotate(-45deg);
+      }
+    }
+    @keyframes active-line3 {
+      0% {
+        transform: translateY(0) rotate(0);
+      }
+      50% {
+        transform: translateY(-6px) rotate(0);
+      }
+      100% {
+        transform: translateY(-6px) rotate(-45deg);
+      }
+    }
+
+
+    .overlay ul li {
+      margin-bottom: 36px;
+    }
+
+    .overlay nav {
+      font-size: 28px;
+    }
+
+    .text--letterspace{
+      letter-spacing: 8px;
+    }
+    .overlay__icon__dribble{
+      font-size: 26px;
+      margin-right: 40px;
+    }
+    .overlay__icon__facebook{
+      font-size: 28px;
+      margin-right: 42px;
+    }
+
+
 
 }
 @media screen and (max-width: 320px) {
