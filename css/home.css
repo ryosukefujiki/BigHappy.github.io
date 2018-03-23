@@ -25,7 +25,6 @@ html, body {
   border-radius: 20px;
   background: #fcfcfc;
   box-shadow: 0px 0px 4px 0px rgba(39,39,39,0.2);
-
 }
 
 .trim{
@@ -45,7 +44,41 @@ html, body {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-
+/* .caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.2);
+  -webkit-transition: .3s;
+  transition: .3s;
+  opacity: 0;
+}
+.trim:hover .caption {
+  opacity: 1;
+} */
+/* .trim:hover img{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+} */
+/*
+.caption h3{
+  color: #ffffff;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  text-align: center;
+}
+.caption p{
+  color: #ffffff;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+} */
 
 .contents__work__img{
   /* padding-top: 60px; */
@@ -63,6 +96,8 @@ html, body {
   /* left: 128px; */
   font-size: 20px;
   font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+  font-style: italic;
   color: #272727;
   transition: 0.3s;
   animation-timing-function: ease-out;
@@ -73,6 +108,8 @@ html, body {
   /* right: 128px; */
   font-size: 20px;
   font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+  font-style: italic;
   color: #272727;
   transition: 0.3s;
   animation-timing-function: ease-out;
