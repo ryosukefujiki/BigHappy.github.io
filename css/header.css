@@ -270,7 +270,7 @@ body{
   position: relative;
   color: #272727;
   text-decoration: none;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .overlay ul li a:hover,
