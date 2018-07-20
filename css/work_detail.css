@@ -9,6 +9,10 @@ html, body{
   text-decoration: none;
   background: linear-gradient(transparent 60%, #f1f1f1 0%);
 }
+
+.hiveText{
+  color: #FFE808;
+}
 .familybookText{
   color: #82C3E0;
 }
@@ -33,7 +37,14 @@ html, body{
   width: 100%;
   height: 100%;
 }
-
+.hiveImg{
+  background: rgba(39, 39, 39, 0.1) url("../images/home/hive_home.png");
+  background-blend-mode: multiply;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
 .familybookImg{
   background: rgba(39, 39, 39, 0.1) url("../images/home/familybook_home.png");
   background-blend-mode: multiply;
