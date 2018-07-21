@@ -283,7 +283,7 @@ html, body{
       font-size: 18px;
       color: #272727;
       font-weight: 600;
-      margin-bottom: 12px;
+      margin-bottom: 8px;
       line-height: 24px;
     }
 
@@ -309,6 +309,7 @@ html, body{
 
     .content__text{
       font-size: 12px;
+      margin-bottom: 0px;
     }
 
 
