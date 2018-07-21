@@ -186,8 +186,7 @@ html, body{
 } */
 
 .worksImg{
-
-  box-shadow: 0px 0px 10px 0px rgba(39,39,39,0.2);
+  box-shadow: 0px 0px 4px 0px rgba(155,155,155,0.2);
 }
 
 .worksImg--big{
@@ -254,15 +253,27 @@ html, body{
 }
 
 
+
+
 .contents__bg{
   position: absolute;
   width: 340px;
   height: 260px;
   border-radius: 20px;
   background: #fcfcfc;
-  box-shadow: 0px 0px 4px 0px rgba(39,39,39,0.2);
+  box-shadow: 0px 0px 4px 0px rgba(155,155,155,0.2);
+  transition: 0.2s;
+  transition-timing-function:ease-out;
 	/* left: -30px;
 	top: 0px; */
+}
+.contents__bg:hover{
+  box-shadow: 0px 0px 20px 0px rgba(155,155,155,0.2);
+}
+
+
+.swiper-slide:hover .contents__bg{
+  box-shadow: 0px 0px 20px 0px rgba(155,155,155,0.2);
 }
 
 .trim{
