@@ -113,7 +113,7 @@ html, body{
 .work__contents{
   margin: 0 auto;
   width: 720px;
-  padding-bottom: 200px;
+  padding-bottom: 80px;
   /* background: #f1f1f1; */
 }
 
@@ -227,6 +227,88 @@ html, body{
 }
 
 
+/* ここからその他の作品コンテンツのためのCSS */
+
+.work__contents{
+  margin: 0 auto;
+  width: 720px;
+  /* background: #f1f1f1; */
+
+}
+
+
+
+.swiper-slide{
+  position: relative;
+  padding-top: 30px;
+  margin-bottom: 40px;
+  float: left;
+}
+
+.swiper-slide-right{
+ margin-left: 80px;
+}
+
+.swiper-slide a{
+  text-decoration: none;
+}
+
+
+.contents__bg{
+  position: absolute;
+  width: 340px;
+  height: 260px;
+  border-radius: 20px;
+  background: #fcfcfc;
+  box-shadow: 0px 0px 4px 0px rgba(39,39,39,0.2);
+	/* left: -30px;
+	top: 0px; */
+}
+
+.trim{
+  z-index: 4;
+  overflow: hidden;
+  width: 320px;
+  height: 240px;
+  border-radius: 20px;
+  position: relative;
+	left: 10px;
+	top: 10px;
+}
+
+.trim img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: auto;
+  height: 100%;
+}
+
+.contents__title{
+  font-size: 18px;
+  color: #4a4a4a;
+  /* letter-spacing: 4px; */
+  margin-top: 36px;
+  /* font-family: 'Noto Sans', sans-serif; */
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.contents__category{
+  font-size: 14px;
+  margin-top: 8px;
+  color: #9b9b9b;
+  /* letter-spacing: 4px; */
+  /* font-family: 'Noto Sans', sans-serif; */
+  font-weight: 400;
+  text-decoration: none;
+}
+
+
+
 @media screen and (max-width: 1024px) {
     /* 1024pxまでの幅の場合に適応される */
 }
@@ -255,7 +337,7 @@ html, body{
     .work__contents{
       margin: 0 auto;
       width: 320px;
-      padding-bottom: 200px;
+
       /* background: #f1f1f1; */
     }
 
@@ -356,6 +438,35 @@ html, body{
     }
 
 
+    /*そのほかの作品について  */
+
+    .swiper-slide{
+      padding-top: 30px;
+    }
+    .swiper-slide-right{
+     margin-left: 0px;
+    }
+
+    .work__contents{
+      margin: 0 auto;
+      width: 320px;
+      /* background: #f1f1f1; */
+
+    }
+    .contents__bg{
+      width: 320px;
+      height: 240px;
+    }
+
+    .trim{
+      width: 300px;
+      height: 225px;
+      position: relative;
+    	left: 10px;
+    	top: 7px;
+    }
+
+
 
 }
 @media screen and (max-width: 320px) {
@@ -437,5 +548,42 @@ html, body{
 
     .imageEven{
       margin-left: 0px;
+    }
+
+
+    /*そのほかの作品について  */
+
+    .work__contents{
+      margin: 0 auto;
+      width: 280px;
+
+      /* background: #f1f1f1; */
+
+    }
+    .contents__bg{
+      width: 280px;
+      height: 210px;
+    }
+    .swiper-slide-right{
+     margin-left: 0px;
+    }
+
+    .trim{
+      width: 260px;
+      height: 195px;
+      position: relative;
+    	left: 10px;
+    	top: 7px;
+    }
+
+    .trim img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      width: auto;
+      height: 100%;
     }
 }

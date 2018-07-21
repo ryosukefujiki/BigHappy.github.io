@@ -3,7 +3,8 @@
   font-size: 72px;
   color: #272727;
   display: block;
-  margin: 360px auto;
+  margin: 1560px auto;
+  margin-top: 320px;
   text-align: center;
   font-family: 'Noto Sans', sans-serif;
   font-weight: 700;
@@ -131,9 +132,12 @@
 @media screen and (max-width: 480px) {
     /* 480pxまでの幅の場合に適応される */
 
+
     .heading{
       font-size: 48px;
-      margin: 360px auto;
+      margin: 40px auto;
+      margin-top: 200px;
+      font-family: 'Noto Sans', sans-serif;
     }
 
 

@@ -1,14 +1,15 @@
-
 .heading{
   font-size: 72px;
   color: #272727;
   display: block;
-  margin: 360px auto;
+  margin: 160px auto;
+  margin-top: 320px;
   text-align: center;
   font-family: 'Noto Sans', sans-serif;
   font-weight: 700;
   font-style: italic;
 }
+
 
 .trim {
     margin-top: 24px;
@@ -225,7 +226,8 @@
     /* 480pxまでの幅の場合に適応される */
     .heading{
       font-size: 48px;
-      margin: 360px auto;
+      margin: 120px auto;
+      margin-top: 200px;
       font-family: 'Noto Sans', sans-serif;
     }
 
