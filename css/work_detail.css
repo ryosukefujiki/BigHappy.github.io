@@ -431,6 +431,14 @@ html, body{
       background-attachment:scroll;
       background-size: cover;
     }
+    .hiveImg{
+      background: rgba(39, 39, 39, 0.1) url("../images/home/scrapboard.png");
+      background-blend-mode: multiply;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment:scroll;
+      background-size: cover;
+    }
 
 
     .imageEven{
