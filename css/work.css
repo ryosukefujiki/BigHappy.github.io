@@ -24,13 +24,22 @@
   position: relative;
   padding-top: 30px;
 	margin-top: 120px;
+  float: left;
+}
+
+.swiper-slide-right{
+ margin-left: 80px;
+}
+
+.swiper-slide a{
+  text-decoration: none;
 }
 
 
 .contents__bg{
   position: absolute;
-  width: 720px;
-  height: 485px;
+  width: 340px;
+  height: 260px;
   border-radius: 20px;
   background: #fcfcfc;
   box-shadow: 0px 0px 4px 0px rgba(39,39,39,0.2);
@@ -41,12 +50,12 @@
 .trim{
   z-index: 4;
   overflow: hidden;
-  width: 660px;
-  height: 424px;
+  width: 320px;
+  height: 240px;
   border-radius: 20px;
   position: relative;
-	left: 30px;
-	top: 30px;
+	left: 10px;
+	top: 10px;
 }
 
 .trim img {
@@ -56,8 +65,28 @@
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 100%;
+}
+
+.contents__title{
+  font-size: 18px;
+  color: #4a4a4a;
+  /* letter-spacing: 4px; */
+  margin-top: 36px;
+  /* font-family: 'Noto Sans', sans-serif; */
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.contents__category{
+  font-size: 14px;
+  margin-top: 8px;
+  color: #9b9b9b;
+  /* letter-spacing: 4px; */
+  /* font-family: 'Noto Sans', sans-serif; */
+  font-weight: 400;
+  text-decoration: none;
 }
 
 
@@ -112,6 +141,9 @@
       padding-top: 30px;
     	margin-top: 60px;
     }
+    .swiper-slide-right{
+     margin-left: 0px;
+    }
 
     .work__contents{
       margin: 0 auto;
@@ -122,37 +154,52 @@
     }
     .contents__bg{
       width: 320px;
-      height: 200px;
+      height: 240px;
     }
 
     .trim{
       width: 300px;
-      height: 180px;
+      height: 225px;
       position: relative;
     	left: 10px;
-    	top: 10px;
+    	top: 7px;
     }
+
 
 }
 @media screen and (max-width: 320px) {
     /* 320pxまでの幅の場合に適応される */
     .work__contents{
       margin: 0 auto;
-      width: 300px;
+      width: 280px;
       padding-bottom: 200px;
       /* background: #f1f1f1; */
 
     }
     .contents__bg{
-      width: 300px;
-      height: 188px;
+      width: 280px;
+      height: 210px;
+    }
+    .swiper-slide-right{
+     margin-left: 0px;
     }
 
     .trim{
-      width: 280px;
-      height: 168px;
+      width: 260px;
+      height: 195px;
       position: relative;
     	left: 10px;
-    	top: 10px;
+    	top: 7px;
+    }
+
+    .trim img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      width: auto;
+      height: 100%;
     }
 }
