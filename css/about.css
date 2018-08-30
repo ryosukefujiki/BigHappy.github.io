@@ -225,7 +225,7 @@
 @media screen and (max-width: 480px) {
     /* 480pxまでの幅の場合に適応される */
     .heading{
-      font-size: 48px;
+      font-size: 32px;
       margin: 120px auto;
       margin-top: 200px;
       font-family: 'Noto Sans', sans-serif;
