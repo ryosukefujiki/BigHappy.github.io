@@ -55,6 +55,8 @@
   box-shadow: 0px 0px 20px 0px rgba(155,155,155,0.2);
 }
 
+
+
 .trim{
   z-index: 4;
   overflow: hidden;
@@ -68,13 +70,29 @@
 
 .trim img {
   position: absolute;
-  top: 50%;
-  left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   width: auto;
   height: 100%;
+
+  transition: 0.1s;
+  transition-timing-function: ease-out;
+
+  transform-origin: center;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.swiper-slide:hover .trim img{
+  transition: 0.2s;
+  position: absolute;
+
+  transform-origin: center;
+  
+
+  -webkit-transform: scale(1.0);
+  transform: scale(1.0);
 }
 
 .contents__title{
