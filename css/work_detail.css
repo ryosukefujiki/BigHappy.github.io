@@ -264,13 +264,7 @@ html, body{
   box-shadow: 0px 0px 4px 0px rgba(155,155,155,0.2);
   transition: 0.2s;
   transition-timing-function:ease-out;
-	/* left: -30px;
-	top: 0px; */
 }
-.contents__bg:hover{
-  box-shadow: 0px 0px 20px 0px rgba(155,155,155,0.2);
-}
-
 
 .swiper-slide:hover .contents__bg{
   box-shadow: 0px 0px 20px 0px rgba(155,155,155,0.2);
@@ -289,15 +283,24 @@ html, body{
 
 .trim img {
   position: absolute;
-  top: 50%;
-  left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   width: auto;
   height: 100%;
+
+  transition: 0.2s;
+  transition-timing-function: ease-out;
+
+  transform-origin: center;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
+.swiper-slide:hover .trim img{
+  -webkit-transform: scale(1.0);
+  transform: scale(1.0);
+}
 .contents__title{
   font-size: 18px;
   color: #4a4a4a;
