@@ -12,13 +12,13 @@ $(document).ready(function() {
       this.touched = true;
     },
     'touchmove mousemove': function(e) {
-      console.log(e)
+      console.log(e);
     },
     'touchend mouseup': function(e) {
       if (!this.touched) {
           return;
 
-}
+        }
       this.touched = false;
       console.log(e);
       $( this ).removeClass( 'hover' );
