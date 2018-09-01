@@ -4,14 +4,26 @@ $(document).ready(function() {
      $('.overlay').toggleClass('open');
   });
 
-  $('.swiper-slide')
-      .bind( 'touchstart', function(){
-        console.log("タッチしたよ");
-        $( this ).addClass( 'hover' );
-    }).bind( 'touchend', function(){
-        console.log("手を離した");
-        $( this ).removeClass( 'hover' );
-    }).bind( 'touchmove', function(){
-        console.log("動いたよ");
+    $('.swiper-slide').bind({
+    /* タッチの開始、マウスボタンを押したとき */
+    'touchstart mousedown': function(e) {
+      console.log(e);
+      $( this ).addClass( 'hover' );
+      this.touched = true;
+    },
+    'touchmove mousemove': function(e) {
+      console.log(e)
+    },
+    'touchend mouseup': function(e) {
+      if (!this.touched) {
+          return;
+
+}
+      this.touched = false;
+      console.log(e);
+      $( this ).removeClass( 'hover' );
+    }
     });
+
+
 });
